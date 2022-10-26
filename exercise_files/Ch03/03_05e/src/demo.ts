@@ -45,6 +45,7 @@ const filteredContacts = searchContacts(
     [/* contacts */],
     {
         id: { matches: (id) => id === 123 },
-        name: { matches: (name) => name === "Carol Weaver" },
+        name: { matches: (name) => name === "Carol Weaver" }
+        //phoneNumber: { matches: (name) => name === "Carol Weaver" },
     }
 );
